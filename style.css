@@ -4,6 +4,9 @@ html{
 *,*:before,*::after{
     box-sizing: inherit;
 }
+a{
+    color:#56556e ;
+}
 i{
     margin:10px;
 }
@@ -37,9 +40,76 @@ button{
     position:relative;
     right:130px;
 }
+.bang{
+    width:50%;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+.thankyou-note{
+text-align: center;
+}
+.thankyou-note hr{
+    width: 20%;
+}
+.thankyou-note a{
+    text-decoration:none;
+}
+.inflation{
+    width:75%;
+    margin: 0 auto;
+}
 .theory-of-inflation{
     display:grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);   
+}
+.theory-of-inflation figure{
+    margin:0;
+}
+.theory-of-inflation figcaption{
+    font-size: 15px;
+}
+.inflation hr{
+    width: 10%;
+    float:left;
+}
+.inflation p{
+   clear:left;
+}
+.caption{
+    font-size:15px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.caption-small{
+    line-height: initial;
+    font-size: 13px;
+   opacity: 0.7;
+}
+.flexing{
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+}
+.flexing button{
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1.5rem;
+    width: 300px;
+    background-color: blue;
+}
+.icons i{
+    background-color:whitesmoke;
+    padding: 10px;
+    border-radius:50%;
+    font-size: small;
 }
 .anatomy{
     display: grid;
