@@ -1,119 +1,170 @@
-html{
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
 }
-*,*:before,*::after{
-    box-sizing: inherit;
+*,
+*:before,
+*::after {
+  box-sizing: inherit;
 }
-a{
-    color:#56556e ;
+a {
+  color: #56556e;
 }
-i{
-    margin:10px;
+i {
+  margin: 10px;
 }
-.navigation-bar{
-    display: flex;
-    justify-content: space-between;
-    border-bottom:2px solid gray;
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
 }
-.navigation-bar .nav-centre{
-    font-family: 'Pirata One', cursive;
-    font-size: 20px;
+.navigation-bar .nav-centre {
+  font-family: "Pirata One", cursive;
+  font-size: 20px;
 }
-.buttons{
-    display: flex;
+.buttons {
+  display: flex;
 }
-button{
-    background-color:#56556e;
-    color:white;
-    border-radius:4px;
-    margin-right:5px;
-    font-size: 10px;
-    margin-bottom:5px
+button {
+  background-color: #56556e;
+  color: white;
+  border-radius: 4px;
+  margin-right: 5px;
+  font-size: 10px;
+  margin-bottom: 5px;
 }
-.main{
-   text-align:center;
+.main {
+  text-align: center;
 }
-.main h1{
-    margin-top: 100px;
+.main h1 {
+  margin-top: 100px;
 }
-.main figcaption{
-    position:relative;
-    right:130px;
+.main figcaption {
+  position: relative;
+  right: 130px;
 }
-.bang{
-    width:50%;
-    margin: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
+.bang {
+  width: 50%;
+  margin: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
 }
-.date{
-    display: flex;
-    justify-content: space-between;
+.date {
+  display: flex;
+  justify-content: space-between;
 }
-.thankyou-note{
-text-align: center;
+.thankyou-note {
+  text-align: center;
 }
-.thankyou-note hr{
-    width: 20%;
+.thankyou-note hr {
+  width: 20%;
 }
-.thankyou-note a{
-    text-decoration:none;
+.thankyou-note a {
+  text-decoration: none;
 }
-.inflation{
-    width:75%;
-    margin: 0 auto;
+.inflation {
+  width: 75%;
+  margin: 0 auto;
 }
-.theory-of-inflation{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);   
+.theory-of-inflation {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
-.theory-of-inflation figure{
-    margin:0;
+.theory-of-inflation figure {
+  margin: 0;
 }
-.theory-of-inflation figcaption{
-    font-size: 15px;
+.theory-of-inflation figcaption {
+  font-size: 15px;
 }
-.inflation hr{
-    width: 10%;
-    float:left;
+.inflation hr {
+  width: 10%;
+  float: left;
 }
-.inflation p{
-   clear:left;
+.inflation p {
+  clear: left;
 }
-.caption{
-    font-size:15px;
-    font-family: 'Baloo Tamma 2', cursive;
+.caption {
+  font-size: 15px;
+  font-family: "Baloo Tamma 2", cursive;
 }
-.caption-small{
-    line-height: initial;
-    font-size: 13px;
-   opacity: 0.7;
+.caption-small {
+  line-height: initial;
+  font-size: 13px;
+  opacity: 0.7;
 }
-.flexing{
-    display: flex;
-    justify-content: space-between;
+.flexing {
+  display: flex;
+  justify-content: space-between;
 }
-.icons{
-    display: flex;
+.icons {
+  display: flex;
 }
-.flexing button{
-    font-size: 0.8125rem;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    line-height: 1.5rem;
-    width: 300px;
-    background-color: blue;
+.flexing button {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  width: 300px;
+  background-color: blue;
 }
-.icons i{
-    background-color:whitesmoke;
-    padding: 10px;
-    border-radius:50%;
-    font-size: small;
+.icons i {
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: small;
 }
-.anatomy{
-    display: grid;
-    grid-template-columns: repeat(3,200px);
-    grid-template-rows: repeat(3,200px);
-    grid-gap:100px;
+.anatomy {
+  display: grid;
+  width: 75%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+  float: left;
+}
+.anatomy figure {
+  margin: 0;
+}
+.headlines {
+  width: 25%;
+  float: left;
+}
+.headlines p {
+  border-bottom: 1px solid gray;
+}
+.headlines a {
+  text-decoration: none;
+}
+.headlines p:nth-child(1) {
+  border-top: 1px solid gray;
+}
+.headlines p:last-child {
+  border-bottom: none;
+}
+.editor {
+  clear: both;
+}
+.editor hr {
+  width: 75%;
+  position: relative;
+  right: 150px;
+}
+.editor-c {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75%;
+}
+.whole-anatomy {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.linking hr {
+  margin: 1px;
+}
+.linking ul {
+  list-style: none;
+  border: 1px solid blue;
+  float: left;
+  margin: 0 5px;
+}
+.linking li {
+  clear: both;
 }
