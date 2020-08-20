@@ -40,7 +40,7 @@ button {
 }
 .main figcaption {
   position: relative;
-  right: 130px;
+  right: 100px;
 }
 .bang {
   width: 50%;
@@ -156,15 +156,38 @@ button {
 .whole-anatomy {
   font-family: "PT Sans Narrow", sans-serif;
 }
+.linking {
+  font-family: "Libre Caslon Display", serif;
+}
 .linking hr {
   margin: 1px;
 }
-.linking ul {
-  list-style: none;
-  border: 1px solid blue;
+.part-1 #headings {
+  width: 75%;
   float: left;
-  margin: 0 5px;
 }
-.linking li {
-  clear: both;
+.part-2 {
+  border-left: 1px solid gray;
+  width: 25%;
+  float: left;
+}
+.part-2 h4 {
+  text-align: center;
+}
+#headings th {
+  text-align: left;
+  font-size: small;
+}
+.part-2 ul {
+  list-style: none;
+}
+#partying-shot {
+  display: flex;
+}
+#partying-shot a {
+  text-decoration: none;
+  margin: 10px;
+}
+#partying-shot a:hover {
+  text-decoration: underline;
 }
